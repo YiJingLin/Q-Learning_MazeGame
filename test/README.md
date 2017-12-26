@@ -7,9 +7,10 @@
 ## 2. maze (list version) : 
 > Dec 26, 2017
 
-- Because of **fail state (with negative reward)** , change condition in choose_action policy. There are three conditions :
-	1. Choose randomly when **random number break the epsilon value**, or
-	2. Choose randomly from zero-rewards, where there **contain negative reward** and **max reward is zero**, or
-	3. Choose biggest reward. (In this condition, **positive reward is guaranteed**)
-
-- Speed of convergence is quite slow where negative reward and multi-direction blocks exist. By add **punishment to Bumpping the wall**, shortest path (to target) have been found at early round (about 5 episodes), instead of 15 episodes in basic case.
+- Because of **fail state (with negative reward)** , I change the IF-ELSE statement in *choose_action* policy. There are three statement :
+	1. Choose randomly when random number break the epsilon value, or
+	2. **Choose randomly from zero-rewards, where there contain negative reward and max reward is zero**, or
+	3. Choose biggest reward. (In this condition, positive reward is guaranteed)
+	- With sec. statement, **"Avoidance"** can be considered when choosing a action.
+- Speed of convergence is quite slow where negative reward and multi-direction blocks exist. By **adding punishment to Bumpping the wall**, shortest path (to target) have been found at early round (about 5 episodes), instead of 15 episodes in basic case.
+	- When bumpping the wall, get -1 as reward.
