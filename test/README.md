@@ -1,4 +1,4 @@
-<div id='en'></div>
+<a id='en'></a>
 # [Q-Learning practice](#en)
 
 ## 1. go straight : 
@@ -21,7 +21,7 @@
 
 - Design GUIs for training vision. One of them is to show Q-Table info, and the another is to show agent status on map.
 
-<div id='zh-TW'></div>
+<a id='zh-TW'></a>
 # [Q-Learning 練習](#zh-TW)
 
 ## 1. 走直線
