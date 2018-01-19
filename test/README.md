@@ -1,4 +1,5 @@
-# Q-Learning practice
+<div id='en'></div>
+# [Q-Learning practice](#en)
 
 ## 1. go straight : 
 > Dec 23-24, 2017
@@ -20,7 +21,8 @@
 
 - Design GUIs for training vision. One of them is to show Q-Table info, and the another is to show agent status on map.
 
-# Q-Learning 練習
+<div id='zh-TW'></div>
+# [Q-Learning 練習](#zh-TW)
 
 ## 1. 走直線
 > Dec 23-24, 2017
