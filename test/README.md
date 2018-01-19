@@ -15,6 +15,10 @@
 - Speed of convergence is quite slow where negative reward and multi-direction blocks exist. By **adding punishment to Bumpping the wall**, shortest path (to target) have been found at early round (about 5 episodes), instead of 15 episodes in basic case.
 	- When bumpping the wall, get -1 as reward.
 
+## 3. GUI (using **Tkinter**) :
+> Jan 19, 2018
+
+- Design GUIs for training vision. One of them is to show Q-Table info, and the another is to show agent status on map.
 
 # Q-Learning 練習
 
@@ -28,4 +32,8 @@
 	1. 如果隨機值大於 epsilon，則隨機取action, 或者
 	2. **若該state存在reward為負且最大reward=0，則從reward=0的action中隨機選一個**, 或者
 	3. 選最大的reward,(這個狀況下不會有負的reward被選到)
-	- 
+
+## 3. GUI (使用**Tkinter**) :
+> Jan 19, 2018
+
+- 設計呈現用的GUI，預期目標：雙視窗，分別呈現Q-Table資訊以及agent於地圖上的狀態
