@@ -21,6 +21,11 @@
 
 - Design GUIs for training vision. One of them is to show Q-Table info, and the another is to show agent status on map.
 
+## 4. QLearning & Sarsa module :
+> Jan 26, 2018
+
+- I combine two algorithm (Sarsa and Q-Learning) together. Both algorithms have module itself, and shared with **Agent** class (as parent class) and **Env** class, and there are some **inheritance** method i'vd used .
+
 <a id='zh-TW'></a>
 # [Q-Learning 練習](#zh-TW)
 
