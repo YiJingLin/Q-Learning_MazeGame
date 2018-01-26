@@ -39,3 +39,8 @@
 > Jan 19, 2018
 
 - 設計呈現用的GUI，預期目標：雙視窗，分別呈現Q-Table資訊以及agent於地圖上的狀態
+
+## 4. QLearning & Sarsa module :
+> Jan 26, 2018
+
+- 將兩個相近的 algorithm 寫成 module，順便練習**繼承(Inheritance**
