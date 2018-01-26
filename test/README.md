@@ -24,6 +24,9 @@
 ## 4. QLearning & Sarsa module :
 > Jan 26, 2018
 
+## 5. Combine module and GUI(tkinter)
+> Jan 26, 2018
+
 - I combine two algorithm (Sarsa and Q-Learning) together. Both algorithms have module itself, and shared with **Agent** class (as parent class) and **Env** class, and there are some **inheritance** method i'vd used .
 
 <a id='zh-TW'></a>
@@ -49,3 +52,6 @@
 > Jan 26, 2018
 
 - 將兩個相近的 algorithm 寫成 module，順便練習**繼承(Inheritance**
+
+## 5. 結合module及GUI(tkinter)
+> Jan 26, 2018
